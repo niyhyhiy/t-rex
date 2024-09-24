@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Permanent+Marker&display=swap');
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.header {
+  background-image: url(images/volcano.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+  text-align: center;
+}
+
+.header-title {
+  font-family: 'Cinzel', sans-serif;
+}
+
+.header-image {
+  width: 50%;
+}
+
+.main {
+  text-align: center;
+}
+
+.main-image {
+  width: 80%;
+}
+
+.caption {
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.list {
+  list-style-position: inside;
+  list-style-type: lower-roman;
+}
+
+.list li {
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 1rem;
+}
+
+.table {
+  width: 100%;
+  padding: 0;
+  border-spacing: 0;
+  border: 5px solid blue;
+}
+
+th {
+  border: 3px solid gray;
+  padding: 5px;
+}
+
+td {
+  border: 1px solid gray;
+  padding: 5px;
+}
